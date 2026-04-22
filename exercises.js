@@ -39,7 +39,12 @@ function exercise_01() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+ const num1 = 8;
+ const num2 = 5;
+
+ const isBigger = num1 > num2;
+
+ console.log(isBigger);
 
   // CODE IN THE OPEN LINES ABOVE
 }
