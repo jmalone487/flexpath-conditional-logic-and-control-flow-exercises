@@ -20,7 +20,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_04();
+  exercise_05();
   // Modify the line of code ABOVE to run a different exercise
 }
 
@@ -172,16 +172,15 @@ function exercise_05() {
 
   // CODE IN THE OPEN LINES BELOW
 
-{
-    // Step 1: assign a color
-    let color = "red";
+ 
+let color = "red";
 
-    // Step 2: check if it's red or blue
-    if (color === "red" || color === "blue") {
-        console.log("Color is red or blue");
-    } else {
-        console.log("Color is not red or blue");
-    }
+if (color === "red" || color === "blue") {
+    console.log("Color is red or blue");
+} else {
+    console.log("Color is not red or blue");
+}
+
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -203,7 +202,12 @@ function exercise_06() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line of code and write your code here";
+  // Step 1: assign a falsy value
+let value = 0;   // 0 is falsy
+
+// Step 2: use ! to check the value
+console.log(!value);
+
 
   // CODE IN THE OPEN LINES ABOVE
 }
